@@ -1,0 +1,29 @@
+# Qt Creator user-specific settings
+*.pro.user
+*.pro.user.*
+
+# Build output
+build-*/
+debug/
+release/
+*.o
+*.obj
+*.exe
+*.dll
+*.a
+*.lib
+
+# qmake / moc generated files
+Makefile
+Makefile.*
+.qmake.stash
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+
+# Editor / OS noise
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
